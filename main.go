@@ -10,6 +10,7 @@ import (
 	"github.com/dmars8047/project-euler/problem1"
 	"github.com/dmars8047/project-euler/problem10"
 	"github.com/dmars8047/project-euler/problem11"
+	"github.com/dmars8047/project-euler/problem12"
 	"github.com/dmars8047/project-euler/problem2"
 	"github.com/dmars8047/project-euler/problem3"
 	"github.com/dmars8047/project-euler/problem4"
@@ -63,6 +64,8 @@ func main() {
 		result = problem10.Execute()
 	case 11:
 		result = problem11.Execute()
+	case 12:
+		result = problem12.Execute()
 	default:
 		fmt.Printf("\nError: The solution for Project Euler problem number: %d has not been added to theis program.\n\n", problemNumber)
 		return
