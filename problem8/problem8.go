@@ -10,7 +10,7 @@ const numDigits = 1000
 
 func readDataFileAndParse() [numDigits]int {
 
-	file, err := os.Open("data.txt")
+	file, err := os.Open("./problem8/data.txt")
 	if err != nil {
 		// handle the error here
 		panic("Error: Could not open file")
