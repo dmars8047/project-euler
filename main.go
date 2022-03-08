@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dmars8047/eulertools"
 	"github.com/dmars8047/project-euler/problem1"
 	"github.com/dmars8047/project-euler/problem10"
 	"github.com/dmars8047/project-euler/problem11"
 	"github.com/dmars8047/project-euler/problem12"
+	"github.com/dmars8047/project-euler/problem13"
 	"github.com/dmars8047/project-euler/problem2"
 	"github.com/dmars8047/project-euler/problem3"
 	"github.com/dmars8047/project-euler/problem4"
@@ -35,7 +35,7 @@ func main() {
 		return
 	}
 
-	eulertools.PrintPremise(problemNumber)
+	//eulertools.PrintPremise(problemNumber)
 
 	result := 0
 
@@ -66,6 +66,8 @@ func main() {
 		result = problem11.Execute()
 	case 12:
 		result = problem12.Execute()
+	case 13:
+		result = problem13.Execute()
 	default:
 		fmt.Printf("\nError: The solution for Project Euler problem number: %d has not been added to theis program.\n\n", problemNumber)
 		return
